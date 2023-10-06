@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-1</title>
+    <script src="Q1.js"></script>
+    <style>
+        .div1
+        {
+            height:400px;
+            margin-top: 150px;
+            border:1px solid black;
+            width:450px;
+            border-radius: 10px;
+            background-color:royalblue;
+            font-family: lucida handwriting;
+            color:white;
+        }
+        .div1 #table1
+        {
+
+            border:1px solid black;
+            border-collapse: collapse;
+            margin-top: 50px;
+            width:80%;
+            height:30%;
+            text-align: center;
+            font-size: 18px;
+        }
+        .div1 td,tr
+        {
+            border: 1px solid black;
+        }
+        .div1 input
+        {
+            margin-top: 30px;
+            width:300px;
+            font-family: cursive;
+            font-size: 18px;
+            border-radius: 10px;
+        }
+        .div1 #Search_btn
+        {
+            border-radius: 15px;
+            width:80px;
+            background-color:cornflowerblue;
+        }
+        .div1 #Search_btn:hover
+        {
+            background-color:darkgrey;
+            color:white;  
+        }
+    </style>
+</head>
+<body background="image4.png">
+    <center>
+    <div class="div1">
+        <h2>IP Location Finder</h2>
+        <input type="text" id="text" name="text" placeholder="Enter IP Address">
+        <input type="button" id="Search_btn" value="Search" onclick="Click()"><br>
+        <table class="table1" id="table1"></table>
+    </div>
+</center>
+</body>
+</html>
